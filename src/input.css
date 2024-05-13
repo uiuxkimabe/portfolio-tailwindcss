@@ -2,7 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
-/* component */
+/* base */
+@layer base {
+    .container {
+        @apply w-11/12 mx-auto w-full h-full
+    }
+    /* p {
+        @apply font-poppins
+    } */
+}
+
+
+
+/* components */
 @layer components {
     .row {
         @apply w-full h-full
